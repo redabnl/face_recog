@@ -1,0 +1,54 @@
+/* Main page styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Streamlit-specific class for the main content area */
+.stApp {
+    background-color: #f0f2f6;
+    padding: 1rem;
+}
+
+/* Title styling */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Button styling */
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    height: 100vh; /* This sets the height of the container to the full viewport height */
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: antiquewhite;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+button:hover {
+    background-color:bisque;
+    color: slategrey;
+}
+
+/* Custom class for reactive buttons */
+.reactive-button {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    padding: 10px 20px;
+}
+
+.reactive-button:hover {
+    background-color: #005f6b;
+}
+
+/* Additional custom styles can go here */
